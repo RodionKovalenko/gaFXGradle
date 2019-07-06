@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="477.0" prefWidth="731.0" xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/2.2" fx:controller="org.openjfx.Controller">
+    <children>
+        <ScrollPane layoutX="17.0" layoutY="60.0" prefHeight="402.0000999999975" prefWidth="700.0">
+            <content>
+                <AnchorPane id="" minHeight="0.0" minWidth="0.0" prefHeight="403.0000915527344" prefWidth="699.0">
+                    <children>
+                        <VBox prefHeight="250.0" prefWidth="250.0" AnchorPane.leftAnchor="100.0"
+                              AnchorPane.topAnchor="50.0"/>
+                        <Label fx:id="digitRecognizedLabel" layoutX="350.0" layoutY="14.0" minHeight="20.0"
+                               prefHeight="57.0" prefWidth="252.0" text="Digit recognized as" AnchorPane.leftAnchor="100.0"
+                               AnchorPane.topAnchor="0.0"/>
+                        <Pane opacity="1.0" prefHeight="250.0" fx:id="digitDrawPane" styleClass="digitDrawPane"
+                              prefWidth="250.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="50.0"/>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <MenuBar layoutX="17.0" layoutY="14.0" styleClass="fileMenu">
+            <menus>
+                <Menu mnemonicParsing="false" text="">
+                    <graphic>
+                        <ComboBox fx:id="comboMenu" promptText="File" value="File">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="File"/>
+                                    <String fx:value="upload image"/>
+                                    <String fx:value="close"/>
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                    </graphic>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ToolBar layoutX="230.0" layoutY="14.0" minHeight="30.0" orientation="HORIZONTAL" prefHeight="34.0"
+                 prefWidth="450.0">
+            <items>
+                <Button fx:id="recognizeDigitMlp" mnemonicParsing="false" text="Recognize with NN"/>
+                <Button fx:id="recognizeDigitGA" mnemonicParsing="false" text="Recognize with NN and GA"/>
+                <Button fx:id="clear" alignment="BASELINE_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false"
+                        text="Clear"/>
+            </items>
+        </ToolBar>
+    </children>
+</AnchorPane>
