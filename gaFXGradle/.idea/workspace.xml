@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcc15377-2d07-48e9-8c0a-b5db2a39d9a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/NeuralNetworkSerialized_GA.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/NeuralNetworkSerialized_Mlp.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/hellofx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/hellofx.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/jrunscript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/keytool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/limited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/limited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/limited/exempt_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/unlimited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/unlimited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/sound.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/aes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/asm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/c-libutl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/cldr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/icu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/public_suffix.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/unicode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.datatransfer/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.datatransfer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/colorimaging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/freetype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/giflib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/harfbuzz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/jpeg.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/lcms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/libpng.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/mesa3d.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/opengl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/xwd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.prefs/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.prefs/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.prefs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.scripting/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.scripting/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.scripting/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/bcel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/dom.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/jcup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/xalan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/xerces.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/jdk.unsupported/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/jdk.unsupported/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/fontconfig.bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/fontconfig.properties.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/jrt-fs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/jspawnhelper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libawt.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libawt_lwawt.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libfontmanager.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libfreetype.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjava.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjavajpeg.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjawt.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjimage.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjli.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjsig.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjsound.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/liblcms.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libmlib_image.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libnet.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libnio.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libosx.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libosxapp.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libosxsecurity.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libosxui.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libprefs.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libsplashscreen.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libverify.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libzip.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/modules" beforeDir="false" afterPath="$PROJECT_DIR$/build/image/hellofx-mac/lib/modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/psfont.properties.ja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/psfontj2d.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/security/default.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/security/public_suffix_list.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/server/libjsig.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/server/libjvm.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/NeuralNetworkSerialized_GA.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/NeuralNetworkSerialized_Mlp.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/awt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/fontmanager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/freetype.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/hellofx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/hellofx.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/java.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/java.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/javajpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/javaw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jawt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jimage.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jli.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jrunscript.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jsound.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/keytool.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/lcms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/mlib_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/nio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/prefs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/server/jvm.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/splashscreen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/verify.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/zip.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/limited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/limited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/limited/exempt_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/unlimited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/unlimited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/sound.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/aes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/asm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/c-libutl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/cldr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/icu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/public_suffix.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/unicode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/zlib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.datatransfer/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.datatransfer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/colorimaging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/freetype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/giflib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/harfbuzz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/jpeg.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/lcms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/libpng.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/mesa3d.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/opengl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.prefs/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.prefs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.scripting/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.scripting/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/bcel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/dom.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/jcup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/xalan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/xerces.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/jdk.unsupported/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/jdk.unsupported/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/fontconfig.bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/fontconfig.properties.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/jawt.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/jrt-fs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/jvm.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/psfont.properties.ja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/psfontj2d.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/security/default.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/security/public_suffix_list.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/tzmappings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/hellofx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/hellofx.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/hellofx.merged.module.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/hellofx.merged.module.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/hellofx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/hellofx.jar" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hellofx" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hellofx" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hellofx" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hellofx" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.gaFXGradle [jlink]">
+    <configuration name="gaFXGradle [jlink]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jlink" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gaFXGradle [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.gaFXGradle [jlink]" />
+        <item itemvalue="Gradle.gaFXGradle [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcc15377-2d07-48e9-8c0a-b5db2a39d9a2" name="Default Changelist" comment="" />
+      <created>1562429077739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562429077739</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.3285968" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.32955465" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
