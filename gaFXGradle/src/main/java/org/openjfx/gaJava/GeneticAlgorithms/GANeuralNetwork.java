@@ -143,7 +143,7 @@ public class GANeuralNetwork implements Serializable {
         int numberOfMutationsHidden;
         for (int c = 0; c < this.children.getOutputChromosomes().size(); c++) {
             // W 10x784
-            numberOfMutationsHidden = (int) Math.abs(Math.random() * nInputs * 0.03);
+            numberOfMutationsHidden = (int) Math.abs(Math.random() * nInputs * 0.05);
 
             for (int i = 0; i < numberOfMutationsHidden; i++) {
                 int m = (int) Math.floor(Math.random() *
@@ -151,9 +151,9 @@ public class GANeuralNetwork implements Serializable {
                 int mutationPoint = (int) Math.floor(Math.random() *
                         this.children.getOutputChromosomes().get(c).Whidden[0].length);
                 this.children.getOutputChromosomes().get(c).Whidden[m][mutationPoint]
-                        += rnd.nextGaussian() * 0.1;
+                        += rnd.nextGaussian() * 0.5;
                 this.children.getOutputChromosomes().get(c).bHidden[mutationPoint % nOutputs]
-                        += rnd.nextGaussian() * 0.1;
+                        += rnd.nextGaussian() * 0.5;
             }
 
             int numberOfMutationsOutput;
@@ -165,9 +165,9 @@ public class GANeuralNetwork implements Serializable {
                     int mutationPoint = (int) Math.floor(Math.abs(Math.random() *
                             this.children.getOutputChromosomes().get(c).Woutput[0].length));
                     this.children.getOutputChromosomes().get(c).Woutput[i][mutationPoint]
-                            += rnd.nextGaussian() * 0.1;
+                            += rnd.nextGaussian() * 0.5;
                     this.children.getOutputChromosomes().get(c).bOutput[mutationPoint % nOutputs]
-                            += rnd.nextGaussian() * 0.1;
+                            += rnd.nextGaussian() * 0.5;
                 }
             }
         }
