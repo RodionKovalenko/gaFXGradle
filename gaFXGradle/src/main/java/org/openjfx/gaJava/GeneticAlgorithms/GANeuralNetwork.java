@@ -1,5 +1,6 @@
 package org.openjfx.gaJava.GeneticAlgorithms;
 
+import javafx.concurrent.Worker;
 import org.openjfx.gaJava.MultiLayerNeuralNetworks.MultiLayerPerceptrons;
 import org.openjfx.gaJava.mnist.ImageManipulation;
 import org.openjfx.gaJava.mnist.Mnist;
@@ -31,6 +32,7 @@ public class GANeuralNetwork implements Serializable {
     public Chromosome secondBestChromosome;
     double[][] score;
 
+    public MultiLayerPerceptrons mlp;
 
     public GANeuralNetwork(int size, int nHiddenGenes, int nOutputGenes, int nInputs, int nOutputs) {
         this.population = new Population(size, nHiddenGenes, nOutputGenes, nInputs, nOutputs);
@@ -42,13 +44,15 @@ public class GANeuralNetwork implements Serializable {
         this.children = new Population();
         this.size = size;
         this.score = new double[size][1];
+        this.mlp = new MultiLayerPerceptrons(nInputs, nHiddenGenes, nOutputs, new Random(new Random().nextInt()));
     }
 
     public void fitness(int[][] input, int[][] target, boolean print) {
         double[] doubleInput = convertIntToDouble(input);
 
         for (int c = 0; c < this.population.getOutputChromosomes().size(); c++) {
-            Integer[] predicted = this.population.getOutputChromosomes().get(c).mlp.predict(doubleInput);
+            this.setWeightsInMlp(c);
+            Integer[] predicted = this.mlp.predict(doubleInput);
 
             double score = 0;
             for (int i = 0; i < predicted.length; i++) {
@@ -61,8 +65,8 @@ public class GANeuralNetwork implements Serializable {
 
     public Integer[] predict(int[][] input) {
         double[] doubleInput = convertIntToDouble(input);
-
-        return this.bestChromose.mlp.predict(doubleInput);
+        this.setWeightsInMlp(0);
+        return this.mlp.predict(doubleInput);
     }
 
     public void selection() {
@@ -97,15 +101,15 @@ public class GANeuralNetwork implements Serializable {
 
             for (int i = 0; i < nHiddenGenes; i++) {
                 if (crossOverPointBias < i) {
-                    child.mlp.hiddenLayer.b[i] = bestChromose.mlp.hiddenLayer.b[i];
+                    child.bHidden[i] = bestChromose.bHidden[i];
                 } else {
-                    child.mlp.hiddenLayer.b[i] = secondBestChromosome.mlp.hiddenLayer.b[i];
+                    child.bHidden[i] = secondBestChromosome.bHidden[i];
                 }
                 for (int j = 0; j < nInputs; j++) {
                     if (j < crossOverPointWeights) {
-                        child.mlp.hiddenLayer.W[i][j] = bestChromose.mlp.hiddenLayer.W[i][j];
+                        child.Whidden[i][j] = bestChromose.Whidden[i][j];
                     } else {
-                        child.mlp.hiddenLayer.W[i][j] = secondBestChromosome.mlp.hiddenLayer.W[i][j];
+                        child.Whidden[i][j] = secondBestChromosome.Whidden[i][j];
                     }
                 }
             }
@@ -116,15 +120,15 @@ public class GANeuralNetwork implements Serializable {
 
             for (int i = 0; i < nOutputs; i++) {
                 if (crossOverPointBias < i) {
-                    child.mlp.logisticLayer.b[i] = bestChromose.mlp.logisticLayer.b[i];
+                    child.bOutput[i] = bestChromose.bOutput[i];
                 } else {
-                    child.mlp.logisticLayer.b[i] = secondBestChromosome.mlp.logisticLayer.b[i];
+                    child.bOutput[i] = secondBestChromosome.bOutput[i];
                 }
                 for (int j = 0; j < nHiddenGenes; j++) {
                     if (j < crossOverPointWeights) {
-                        child.mlp.logisticLayer.W[i][j] = bestChromose.mlp.logisticLayer.W[i][j];
+                        child.Woutput[i][j] = bestChromose.Woutput[i][j];
                     } else {
-                        child.mlp.logisticLayer.W[i][j] = secondBestChromosome.mlp.logisticLayer.W[i][j];
+                        child.Woutput[i][j] = secondBestChromosome.Woutput[i][j];
                     }
                 }
             }
@@ -139,29 +143,30 @@ public class GANeuralNetwork implements Serializable {
         int numberOfMutationsHidden;
         for (int c = 0; c < this.children.getOutputChromosomes().size(); c++) {
             // W 10x784
-            numberOfMutationsHidden = (int) Math.abs(Math.random() * nInputs * 0.05);
+            numberOfMutationsHidden = (int) Math.abs(Math.random() * nInputs * 0.03);
 
             for (int i = 0; i < numberOfMutationsHidden; i++) {
                 int m = (int) Math.floor(Math.random() *
-                        this.children.getOutputChromosomes().get(c).mlp.hiddenLayer.W.length);
+                        this.children.getOutputChromosomes().get(c).Whidden.length);
                 int mutationPoint = (int) Math.floor(Math.random() *
-                        this.children.getOutputChromosomes().get(c).mlp.hiddenLayer.W[0].length);
-                this.children.getOutputChromosomes().get(c).mlp.hiddenLayer.W[m][mutationPoint]
+                        this.children.getOutputChromosomes().get(c).Whidden[0].length);
+                this.children.getOutputChromosomes().get(c).Whidden[m][mutationPoint]
                         += rnd.nextGaussian() * 0.1;
-                this.children.getOutputChromosomes().get(c).mlp.hiddenLayer.b[mutationPoint % nOutputs]
+                this.children.getOutputChromosomes().get(c).bHidden[mutationPoint % nOutputs]
                         += rnd.nextGaussian() * 0.1;
             }
 
             int numberOfMutationsOutput;
             // W 10x10
             for (int i = 0; i < nOutputs; i++) {
-                numberOfMutationsOutput = (int) (Math.random() * nOutputs * 0.2);
+                numberOfMutationsOutput = (int) (Math.random() * nOutputs * 0.3);
+
                 for (int j = 0; j < numberOfMutationsOutput; j++) {
                     int mutationPoint = (int) Math.floor(Math.abs(Math.random() *
-                            this.children.getOutputChromosomes().get(c).mlp.logisticLayer.W[0].length));
-                    this.children.getOutputChromosomes().get(c).mlp.logisticLayer.W[i][mutationPoint]
+                            this.children.getOutputChromosomes().get(c).Woutput[0].length));
+                    this.children.getOutputChromosomes().get(c).Woutput[i][mutationPoint]
                             += rnd.nextGaussian() * 0.1;
-                    this.children.getOutputChromosomes().get(c).mlp.logisticLayer.b[mutationPoint % nOutputs]
+                    this.children.getOutputChromosomes().get(c).bOutput[mutationPoint % nOutputs]
                             += rnd.nextGaussian() * 0.1;
                 }
             }
@@ -172,6 +177,17 @@ public class GANeuralNetwork implements Serializable {
         for (int c = 0; c < this.children.getOutputChromosomes().size(); c++) {
             this.population.getOutputChromosomes().add(this.children.getOutputChromosomes().get(c));
         }
+    }
+
+    public void setWeightsInMlp(int chromosomeIndex) {
+        double [][] Whidden = this.population.getOutputChromosomes().get(chromosomeIndex).getWhidden();
+        double [] bHidden = this.population.getOutputChromosomes().get(chromosomeIndex).getbHidden();
+        double [][] WOutput = this.population.getOutputChromosomes().get(chromosomeIndex).getWoutput();
+        double [] bOutput = this.population.getOutputChromosomes().get(chromosomeIndex).getbOutput();
+        this.mlp.hiddenLayer.W = Whidden;
+        this.mlp.hiddenLayer.b = bHidden;
+        this.mlp.logisticLayer.W = WOutput;
+        this.mlp.logisticLayer.b = bOutput;
     }
 
     public Chromosome getBestChromose() {
@@ -220,15 +236,15 @@ public class GANeuralNetwork implements Serializable {
                 double[][] outputWeightsMatrix = (double[][]) in.readObject();
                 double[] biasOutput = (double[]) in.readObject();
                 ga.bestChromose = ga.population.getOutputChromosomes().get(0);
-                ga.bestChromose.mlp.hiddenLayer.W = hiddenWeightsMatrix;
-                ga.bestChromose.mlp.hiddenLayer.b = biasHidden;
-                ga.bestChromose.mlp.logisticLayer.W = outputWeightsMatrix;
-                ga.bestChromose.mlp.logisticLayer.b = biasOutput;
+                ga.bestChromose.Whidden = hiddenWeightsMatrix;
+                ga.bestChromose.bHidden = biasHidden;
+                ga.bestChromose.Woutput = outputWeightsMatrix;
+                ga.bestChromose.bOutput = biasOutput;
 
-                ga.population.getOutputChromosomes().get(0).mlp.hiddenLayer.W = hiddenWeightsMatrix;
-                ga.population.getOutputChromosomes().get(0).mlp.hiddenLayer.b = biasHidden;
-                ga.population.getOutputChromosomes().get(0).mlp.logisticLayer.W = outputWeightsMatrix;
-                ga.population.getOutputChromosomes().get(0).mlp.logisticLayer.b = biasOutput;
+                ga.population.getOutputChromosomes().get(0).Whidden = hiddenWeightsMatrix;
+                ga.population.getOutputChromosomes().get(0).bHidden = biasHidden;
+                ga.population.getOutputChromosomes().get(0).Woutput = outputWeightsMatrix;
+                ga.population.getOutputChromosomes().get(0).bOutput = biasOutput;
 
                 in.close();
                 fileIn.close();
@@ -243,10 +259,10 @@ public class GANeuralNetwork implements Serializable {
         String gaFileName = "NeuralNetworkSerialized_GA" + ".ser";
         FileOutputStream fileOut = new FileOutputStream(gaFileName);
         ObjectOutputStream out = new ObjectOutputStream(fileOut);
-        out.writeObject(ga.bestChromose.mlp.hiddenLayer.W);
-        out.writeObject(ga.bestChromose.mlp.hiddenLayer.b);
-        out.writeObject(ga.bestChromose.mlp.logisticLayer.W);
-        out.writeObject(ga.bestChromose.mlp.logisticLayer.b);
+        out.writeObject(ga.bestChromose.Whidden);
+        out.writeObject(ga.bestChromose.bHidden);
+        out.writeObject(ga.bestChromose.Woutput);
+        out.writeObject(ga.bestChromose.bOutput);
         out.flush();
         out.close();
         fileOut.close();
@@ -271,7 +287,7 @@ public class GANeuralNetwork implements Serializable {
         //  MnistMatrix[] inputMatrix = Mnist.getMnistTrainMatrix();
 
         int nInputs = 784;
-        MultiLayerPerceptrons mlp = new MultiLayerPerceptrons(nInputs, 10, 10, new Random(123));
+        MultiLayerPerceptrons mlpSaved = new MultiLayerPerceptrons(nInputs, 10, 10, new Random(123));
 
         String mlpFileName = "NeuralNetworkSerialized_Mlp" + ".ser";
 
@@ -287,10 +303,10 @@ public class GANeuralNetwork implements Serializable {
                 double[] biasHidden = (double[]) in.readObject();
                 double[][] outputWeightsMatrix = (double[][]) in.readObject();
                 double[] biasOutput = (double[]) in.readObject();
-                mlp.hiddenLayer.W = hiddenWeightsMatrix;
-                mlp.hiddenLayer.b = biasHidden;
-                mlp.logisticLayer.W = outputWeightsMatrix;
-                mlp.logisticLayer.b = biasOutput;
+                mlpSaved.hiddenLayer.W = hiddenWeightsMatrix;
+                mlpSaved.hiddenLayer.b = biasHidden;
+                mlpSaved.logisticLayer.W = outputWeightsMatrix;
+                mlpSaved.logisticLayer.b = biasOutput;
 
                 in.close();
                 fileIn.close();
@@ -298,7 +314,7 @@ public class GANeuralNetwork implements Serializable {
         } else {
             System.out.println("MLP file does not exist");
         }
-        return mlp;
+        return mlpSaved;
     }
 
     public static void train() throws Exception {
@@ -339,7 +355,7 @@ public class GANeuralNetwork implements Serializable {
             ga.crossover();
             ga.mutation();
 
-            //mlp.train(trainDataForMlp, targetForMlp, inputMatrix.length, 0.01);
+            mlp.train(trainDataForMlp, targetForMlp, inputMatrix.length, 0.01);
 
             //System.out.println("Score: " + ga.parents.getOutputChromosomes().get(0).getScore());
 
