@@ -17,11 +17,8 @@ import static org.openjfx.gaJava.util.ArrayTypeConversion.convertIntToBinaryArra
 import static org.openjfx.gaJava.util.ArrayTypeConversion.convertIntToInteger;
 
 public class GANeuralNetwork implements Serializable {
-    double[][] input;
     public Population population;
     double[][][] finalOutput;
-    int numberOfGenerations = 10;
-    int numberOfPatterns;
     final Random rnd = new Random();
     int nHiddenGenes;
     int nOutputGenes;
@@ -35,7 +32,6 @@ public class GANeuralNetwork implements Serializable {
     public Chromosome bestChromose;
     public Chromosome secondBestChromosome;
     double[][] score;
-    int numberOfMutations = 1;
 
     public GANeuralNetwork(int size, int nHiddenGenes, int nOutputGenes, int nInputs, int nOutputs) {
         this.population = new Population(size, nHiddenGenes, nOutputGenes, nInputs, nOutputs);
@@ -49,7 +45,7 @@ public class GANeuralNetwork implements Serializable {
         this.score = new double[size][1];
     }
 
-    public int fitness(int[][] input, int[][] target, boolean print) {
+    public void fitness(int[][] input, int[][] target, boolean print) {
         double[] doubleInput = convertIntToDouble(input);
 
         for (int c = 0; c < this.population.getOutputChromosomes().size(); c++) {
@@ -62,8 +58,6 @@ public class GANeuralNetwork implements Serializable {
             this.population.getOutputChromosomes().get(c).setScore(score +
                     this.population.getOutputChromosomes().get(c).getScore());
         }
-
-        return 1;
     }
 
     public Integer[] predict(int[][] input) {
@@ -72,7 +66,7 @@ public class GANeuralNetwork implements Serializable {
         return this.bestChromose.mlp.predict(doubleInput);
     }
 
-    public int selection() {
+    public void selection() {
 
         // select 2 best parents for breeding
 
@@ -88,11 +82,9 @@ public class GANeuralNetwork implements Serializable {
 
         this.setBestChromose(this.population.getOutputChromosomes().get(0));
         this.setSecondBestChromosome(this.secondBestChromosome = this.population.getOutputChromosomes().get(1));
-        //System.out.println("best score selection " + this.bestChromose.getScore());
         this.oldScore = population.getOutputChromosomes().get(0).getScore();
 
         this.score = new double[size][1];
-        return 0;
     }
 
     public void crossover() {
@@ -120,6 +112,7 @@ public class GANeuralNetwork implements Serializable {
                 }
             }
 
+            // crossover for output layer chromosomes
             crossOverPointWeights = (int) Math.floor(Math.random() * nHiddenGenes);
             crossOverPointBias = (int) Math.floor(Math.random() * nOutputs);
 
@@ -137,30 +130,6 @@ public class GANeuralNetwork implements Serializable {
                     }
                 }
             }
-
-//            double[][] W = child.mlp.logisticLayer.W;
-//            System.out.print("mutated weights ");
-//            for (int i = 0; i < W.length; i++) {
-//                for (int j = 0; j < W[0].length; j++) {
-//                    System.out.print(W[i][j] + ", ");
-//                }
-//            }
-//            System.out.println();
-//            System.out.print("original weights ");
-//            for (int i = 0; i < W.length; i++) {
-//                for (int j = 0; j < W[0].length; j++) {
-//                    System.out.print(this.bestChromose.mlp.logisticLayer.W[i][j] + ", ");
-//                }
-//            }
-//            System.out.println();
-//
-//            System.out.print("original weights ");
-//            for (int i = 0; i < W.length; i++) {
-//                for (int j = 0; j < W[0].length; j++) {
-//                    System.out.print(this.secondBestChromosome.mlp.logisticLayer.W[i][j] + ", ");
-//                }
-//            }
-            //  System.out.println();
 
             outputChromosomeChildren.add(child);
         }

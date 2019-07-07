@@ -1,0 +1,12 @@
+
+.root {
+    -fx-background-color: #434c4b;
+}
+
+.digitDrawPane {
+    -fx-background-color: black;
+}
+
+.fileMenu {
+    -fx-background-color: #d2c8fe;
+}
