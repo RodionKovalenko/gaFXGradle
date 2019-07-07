@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6632de57-f941-47b5-99b6-095511f52bc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuralNetworkSerialized_GA.ser" beforeDir="false" afterPath="$PROJECT_DIR$/NeuralNetworkSerialized_GA.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -64,11 +62,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+            <state relative-caret-position="14">
+              <caret line="424" column="5" lean-forward="true" selection-start-line="424" selection-start-column="5" selection-end-line="424" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Gene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Population.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Chromosome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -86,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
@@ -103,29 +128,29 @@
         <subPane>
           <expand>
             <path>
-              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -133,7 +158,7 @@
               <item name="openjfx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -142,7 +167,7 @@
               <item name="gaJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -152,7 +177,7 @@
               <item name="GeneticAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaFXGradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -252,7 +277,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5026643" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5026643" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,13 +299,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Chromosome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/HiddenLayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1088">
@@ -288,10 +306,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Gene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Chromosome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+        <state relative-caret-position="14">
+          <caret line="424" column="5" lean-forward="true" selection-start-line="424" selection-start-column="5" selection-end-line="424" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -4,11 +4,9 @@ import org.openjfx.gaJava.MultiLayerNeuralNetworks.MultiLayerPerceptrons;
 import org.openjfx.gaJava.mnist.ImageManipulation;
 import org.openjfx.gaJava.mnist.Mnist;
 import org.openjfx.gaJava.mnist.MnistMatrix;
-import org.openjfx.gaJava.util.ArrayTypeConversion;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Random;
 
@@ -79,20 +77,19 @@ public class GANeuralNetwork implements Serializable {
         }
 
         parents.setOutputChromosomes(outputChromosomes);
-
         this.setBestChromose(this.population.getOutputChromosomes().get(0));
+
         this.setSecondBestChromosome(this.secondBestChromosome = this.population.getOutputChromosomes().get(1));
         this.oldScore = population.getOutputChromosomes().get(0).getScore();
-
         this.score = new double[size][1];
     }
 
     public void crossover() {
         ArrayList<Chromosome> outputChromosomeChildren = new ArrayList<>();
 
-        // crossover for hidden layer chromosomes
-
         for (int c = 0; c < size - parents.getOutputChromosomes().size(); c++) {
+
+            // crossover for hidden layer chromosomes
             Chromosome child = new Chromosome(size, nInputs, nHiddenGenes, nOutputs);
             int crossOverPointWeights = (int) Math.floor(Math.random() * nInputs);
             int crossOverPointBias = (int) Math.floor(Math.random() * nHiddenGenes);
