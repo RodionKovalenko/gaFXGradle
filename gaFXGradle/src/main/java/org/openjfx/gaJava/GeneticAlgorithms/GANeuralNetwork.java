@@ -30,6 +30,7 @@ public class GANeuralNetwork implements Serializable {
     public Chromosome bestChromose;
     public Chromosome secondBestChromosome;
     double[][] score;
+    
 
     public GANeuralNetwork(int size, int nHiddenGenes, int nOutputGenes, int nInputs, int nOutputs) {
         this.population = new Population(size, nHiddenGenes, nOutputGenes, nInputs, nOutputs);
