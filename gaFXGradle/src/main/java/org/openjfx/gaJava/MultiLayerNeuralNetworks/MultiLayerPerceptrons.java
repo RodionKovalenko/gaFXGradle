@@ -28,7 +28,7 @@ public class MultiLayerPerceptrons  implements Serializable {
         this.rng = rng;
 
         // construct hidden layer with tanh as activation function
-        hiddenLayer = new HiddenLayer(nIn, nHidden, null, null, rng, "tanh");  // sigmoid or tanh
+        hiddenLayer = new HiddenLayer(nIn, nHidden, null, null, rng, "sigmoid");  // sigmoid or tanh
 
         // construct output layer i.e. multi-class logistic layer
         logisticLayer = new LogisticRegression(nHidden, nOut);

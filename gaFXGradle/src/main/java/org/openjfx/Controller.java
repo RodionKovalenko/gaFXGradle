@@ -1,7 +1,5 @@
 package org.openjfx;
 
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import org.openjfx.gaJava.MultiLayerNeuralNetworks.MultiLayerPerceptrons;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
@@ -21,10 +19,9 @@ import javafx.scene.paint.Color;
 import javafx.stage.FileChooser;
 import org.openjfx.gaJava.mnist.ImageManipulation;
 import org.openjfx.gaJava.mnist.MnistMatrix;
-import org.openjfx.gaJava.util.ArrayTypeConversion;
+import static org.openjfx.gaJava.util.ArrayTypeConversion.*;
 
 import java.io.*;
-import java.net.URI;
 import java.util.Arrays;
 
 public class Controller {
@@ -97,7 +94,8 @@ public class Controller {
                 }
 
                 ImageManipulation.saveIntToImage(pixels, "imageTest/test" + ".png");
-                Integer[] predicted = ga.predict(pixels);
+                double[] doublePixels = normalizeMaxMin(convertIntToDouble(pixels));
+                Integer[] predicted = ga.predict(doublePixels);
                 int predictedOutput = Arrays.asList(predicted).indexOf(1);
                 digitRecognizedLabel.setText("Digit recognized as " + predictedOutput);
             } catch (
@@ -124,12 +122,14 @@ public class Controller {
                 }
 
                 ImageManipulation.saveIntToImage(pixels, "imageTest/test" + ".png");
-                double[] doublePixels = ArrayTypeConversion.convertIntToDouble(pixels);
+                double[] doublePixels = normalizeMaxMin(convertIntToDouble(pixels));
+
                 Integer[] predicted = mlp.predict(doublePixels);
                 int predictedOutput = Arrays.asList(predicted).indexOf(1);
 
                 digitRecognizedLabel.setText("Digit recognized as " + predictedOutput);
 
+               // GANeuralNetwork.evaluateModel();
 
 //                String workingDir = System.getProperty("user.dir");
 //                File file = new File(workingDir + "/test.png");
@@ -153,7 +153,7 @@ public class Controller {
 
         canvas.addEventHandler(MouseEvent.MOUSE_DRAGGED,
                 (MouseEvent e) -> {
-                    int radius = 15;
+                    int radius = 17;
                     GraphicsContext gc = canvas.getGraphicsContext2D();
                     gc.setFill(Color.WHITE);
                     gc.fillOval(e.getX() - radius / 2, e.getY() - radius / 2, radius, radius);

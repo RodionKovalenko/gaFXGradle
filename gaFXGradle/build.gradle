@@ -21,10 +21,6 @@ dependencies {
 
 apply plugin: "org.openjfx.javafxplugin"
 
-javafx {
-    version = "12"
-    modules = ['javafx.controls', 'javafx.fxml', 'javafx.swing', 'javafx.graphics']
-}
 
 jar {
     manifest {
@@ -36,42 +32,23 @@ jar {
     }
 }
 
+javafx {
+    version = "12"
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.swing', 'javafx.graphics']
+}
 
 jlink {
-    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
     launcher {
         name = 'hellofx'
     }
-    targetPlatform("mac") {
-        jdkHome = "C:\\Users\\rkovalenko\\Downloads\\jdk-12.0.1+12\\Contents\\Home"
-    }
-    targetPlatform("win") {
-        jdkHome = "C:\\Program Files\\Java\\jdk-12.0.1"
-    }
-    forceMerge('log4j-api')
 }
 
 task('copyWin', type: Copy) {
-    dependsOn 'copyMac'
 
     from file("NeuralNetworkSerialized_GA.ser")
-    into file("$buildDir/image/hellofx-win/bin")
+    into file("$buildDir/image/bin")
 
     from file("NeuralNetworkSerialized_Mlp.ser")
-    into file("$buildDir/image/hellofx-win/bin")
+    into file("$buildDir/image/bin")
     println('windows copy done')
-
-}
-
-task('copyMac', type: Copy) {
-    println('mac copy done')
-    from file("NeuralNetworkSerialized_GA.ser")
-    into file("$buildDir/image/hellofx-mac/bin")
-
-    from file("NeuralNetworkSerialized_Mlp.ser")
-    into file("$buildDir/image/hellofx-mac/bin")
-}
-
-task copyFiles {
-    dependsOn 'copyWin'
 }

@@ -22,7 +22,7 @@
                                prefHeight="57.0" prefWidth="252.0" text="Digit recognized as" AnchorPane.leftAnchor="100.0"
                                AnchorPane.topAnchor="0.0"/>
                         <Pane opacity="1.0" prefHeight="250.0" fx:id="digitDrawPane" styleClass="digitDrawPane"
-                              prefWidth="250.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="50.0"/>
+                              prefWidth="250.0" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="70.0"/>
                     </children>
                 </AnchorPane>
             </content>

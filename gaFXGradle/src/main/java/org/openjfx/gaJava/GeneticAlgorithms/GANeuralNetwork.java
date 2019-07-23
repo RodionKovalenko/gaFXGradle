@@ -1,6 +1,5 @@
 package org.openjfx.gaJava.GeneticAlgorithms;
 
-import javafx.concurrent.Worker;
 import org.openjfx.gaJava.MultiLayerNeuralNetworks.MultiLayerPerceptrons;
 import org.openjfx.gaJava.mnist.ImageManipulation;
 import org.openjfx.gaJava.mnist.Mnist;
@@ -8,10 +7,11 @@ import org.openjfx.gaJava.mnist.MnistMatrix;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Random;
 
-import static org.openjfx.gaJava.util.ArrayTypeConversion.convertIntToDouble;
+import static org.openjfx.gaJava.util.ArrayTypeConversion.*;
 import static org.openjfx.gaJava.util.ArrayTypeConversion.convertIntToBinaryArray;
 import static org.openjfx.gaJava.util.ArrayTypeConversion.convertIntToInteger;
 
@@ -47,12 +47,11 @@ public class GANeuralNetwork implements Serializable {
         this.mlp = new MultiLayerPerceptrons(nInputs, nHiddenGenes, nOutputs, new Random(new Random().nextInt()));
     }
 
-    public void fitness(int[][] input, int[][] target, boolean print) {
-        double[] doubleInput = convertIntToDouble(input);
+    public void fitness(double [] input, int[][] target, boolean print) {
 
         for (int c = 0; c < this.population.getOutputChromosomes().size(); c++) {
             this.setWeightsInMlp(c);
-            Integer[] predicted = this.mlp.predict(doubleInput);
+            Integer[] predicted = this.mlp.predict(input);
 
             double score = 0;
             for (int i = 0; i < predicted.length; i++) {
@@ -63,10 +62,9 @@ public class GANeuralNetwork implements Serializable {
         }
     }
 
-    public Integer[] predict(int[][] input) {
-        double[] doubleInput = convertIntToDouble(input);
+    public Integer[] predict(double[] input) {
         this.setWeightsInMlp(0);
-        return this.mlp.predict(doubleInput);
+        return this.mlp.predict(input);
     }
 
     public void selection() {
@@ -151,23 +149,23 @@ public class GANeuralNetwork implements Serializable {
                 int mutationPoint = (int) Math.floor(Math.random() *
                         this.children.getOutputChromosomes().get(c).Whidden[0].length);
                 this.children.getOutputChromosomes().get(c).Whidden[m][mutationPoint]
-                        += rnd.nextGaussian() * 0.5;
+                        += rnd.nextGaussian() * 0.1;
                 this.children.getOutputChromosomes().get(c).bHidden[mutationPoint % nOutputs]
-                        += rnd.nextGaussian() * 0.5;
+                        += rnd.nextGaussian() * 0.1;
             }
 
             int numberOfMutationsOutput;
             // W 10x10
             for (int i = 0; i < nOutputs; i++) {
-                numberOfMutationsOutput = (int) (Math.random() * nOutputs * 0.3);
+                numberOfMutationsOutput = (int) (Math.random() * nOutputs * 0.1);
 
                 for (int j = 0; j < numberOfMutationsOutput; j++) {
                     int mutationPoint = (int) Math.floor(Math.abs(Math.random() *
                             this.children.getOutputChromosomes().get(c).Woutput[0].length));
                     this.children.getOutputChromosomes().get(c).Woutput[i][mutationPoint]
-                            += rnd.nextGaussian() * 0.5;
+                            += rnd.nextGaussian() * 0.1;
                     this.children.getOutputChromosomes().get(c).bOutput[mutationPoint % nOutputs]
-                            += rnd.nextGaussian() * 0.5;
+                            += rnd.nextGaussian() * 0.1;
                 }
             }
         }
@@ -217,7 +215,7 @@ public class GANeuralNetwork implements Serializable {
     public static GANeuralNetwork getGANetwork() throws Exception {
         //MnistMatrix[] inputMatrix = Mnist.getMnistTrainMatrix();
 
-        GANeuralNetwork ga = new GANeuralNetwork(180, 10,
+        GANeuralNetwork ga = new GANeuralNetwork(100, 50,
                 3, 784, 10);
 
         String gaFileName = "NeuralNetworkSerialized_GA" + ".ser";
@@ -287,7 +285,7 @@ public class GANeuralNetwork implements Serializable {
         //  MnistMatrix[] inputMatrix = Mnist.getMnistTrainMatrix();
 
         int nInputs = 784;
-        MultiLayerPerceptrons mlpSaved = new MultiLayerPerceptrons(nInputs, 10, 10, new Random(123));
+        MultiLayerPerceptrons mlpSaved = new MultiLayerPerceptrons(nInputs, 50, 10, new Random(123));
 
         String mlpFileName = "NeuralNetworkSerialized_Mlp" + ".ser";
 
@@ -324,38 +322,42 @@ public class GANeuralNetwork implements Serializable {
         MultiLayerPerceptrons mlp = getMlpNetwork();
 
         double[][] trainDataForMlp = new double[inputMatrix.length][nInputs];
+        double[][] trainDataForGA = new double[inputMatrix.length][nInputs];
         int[][] targetForMlp = new int[inputMatrix.length][10];
+        double learningRate = 0.8;
 
         for (int in = 0; in < inputMatrix.length; in++) {
             int[][] testInput = inputMatrix[in].getData();
             int[] label = convertIntToBinaryArray(inputMatrix[in].getLabel());
             trainDataForMlp[in] = convertIntToDouble(testInput);
+            trainDataForGA[in] = convertIntToDouble(testInput);
             targetForMlp[in] = label;
         }
+       trainDataForMlp = normalizeMaxMin(trainDataForMlp);
 
-        int iterations = 200;
+        int iterations = 2;
 
         loop:
         for (int i = 0; i < iterations; i++) {
             double score = 0.0;
 
-            for (int c = 0; c < ga.population.getOutputChromosomes().size(); c++) {
-                ga.population.getOutputChromosomes().get(c).setScore(0.00);
-            }
+//            for (int c = 0; c < ga.population.getOutputChromosomes().size(); c++) {
+//                ga.population.getOutputChromosomes().get(c).setScore(0.00);
+//            }
+//
+//            for (int in = 0; in < inputMatrix.length; in++) {
+//                int[] label = convertIntToBinaryArray(inputMatrix[in].getLabel());
+//                int[][] testOutput = new int[][]{label};
+//                ga.fitness(trainDataForGA[in], testOutput, false);
+//            }
+//
+//            ga.selection();
+//            ga.crossover();
+//            ga.mutation();
 
-            for (int in = 0; in < inputMatrix.length; in++) {
-                int[][] testInput = inputMatrix[in].getData();
-                int[] label = convertIntToBinaryArray(inputMatrix[in].getLabel());
-                int[][] testOutput = new int[][]{label};
-                // System.out.print(testOutput[0][0] + ", " + testOutput[0][1] + ", " + testOutput[0][2] + "\n");
-                ga.fitness(testInput, testOutput, false);
-            }
+            mlp.train(trainDataForMlp, targetForMlp, inputMatrix.length, learningRate);
+            //learningRate *= 0.99;
 
-            ga.selection();
-            ga.crossover();
-            ga.mutation();
-
-            mlp.train(trainDataForMlp, targetForMlp, inputMatrix.length, 0.01);
 
             //System.out.println("Score: " + ga.parents.getOutputChromosomes().get(0).getScore());
 
@@ -377,14 +379,10 @@ public class GANeuralNetwork implements Serializable {
                 int count = 0;
 
                 for (int in = 0; in < inputMatrix.length; in++) {
-                    int[][] testInput = inputMatrix[in].getData();
                     int[] label = convertIntToBinaryArray(inputMatrix[in].getLabel());
                     int[][] testOutput = new int[][]{label};
 
-                    if (in < 500) {
-                        ImageManipulation.saveIntToImage(testInput, "images/" + in + ".png");
-                    }
-                    Integer[] predicted = ga.predict(testInput);
+                    Integer[] predicted = ga.predict(trainDataForGA[in]);
 
                     int localCount = 0;
                     for (int j = 0; j < predicted.length; j++) {
@@ -404,16 +402,10 @@ public class GANeuralNetwork implements Serializable {
 
                 count = 0;
                 for (int in = 0; in < inputMatrix.length; in++) {
-                    int[][] testInput = inputMatrix[in].getData();
                     int[] label = convertIntToBinaryArray(inputMatrix[in].getLabel());
                     int[][] testOutput = new int[][]{label};
 
-                    if (in < 30) {
-                        ImageManipulation.saveIntToImage(testInput, "images/" + in + ".png");
-                    }
-
-                    double[] testInputMlp = convertIntToDouble(testInput);
-                    Integer[] predictedMlp = mlp.predict(testInputMlp);
+                    Integer[] predictedMlp = mlp.predict(trainDataForMlp[in]);
                     Integer[] targetOutput = convertIntToInteger(label);
 
 //                    System.out.println("++++++++++++++++++++++++++++");
@@ -439,6 +431,91 @@ public class GANeuralNetwork implements Serializable {
                 break loop;
             }
         }
+
+        evaluateModel();
+    }
+
+
+    public static void evaluateModel() throws Exception {
+        //
+        // Evaluate the model
+        //
+
+        MnistMatrix[] inputMatrix = Mnist.getMnistTestMatrix();
+        GANeuralNetwork ga = getGANetwork();
+        int nInputs = inputMatrix[0].getnCols() * inputMatrix[0].getnRows();
+        MultiLayerPerceptrons mlp = getMlpNetwork();
+
+        double[][] trainDataForMlp = new double[inputMatrix.length][nInputs];
+        double[][] trainDataForGA = new double[inputMatrix.length][nInputs];
+        Integer [][] targetForMlp = new Integer[inputMatrix.length][10];
+
+        for (int in = 0; in < inputMatrix.length; in++) {
+            int[][] testInput = inputMatrix[in].getData();
+            Integer[] label = convertIntToBinaryArrayInteger(inputMatrix[in].getLabel());
+            trainDataForMlp[in] = convertIntToDouble(testInput);
+            trainDataForGA[in] = convertIntToDouble(testInput);
+            targetForMlp[in] = label;
+        }
+
+        trainDataForMlp = normalizeMaxMin(trainDataForMlp);
+
+        int test_N = targetForMlp.length;
+        int nOut = targetForMlp[0].length;
+        int patterns = targetForMlp[0].length;
+        int[][] confusionMatrix = new int[targetForMlp[0].length][targetForMlp[0].length];
+        double accuracy = 0.;
+        double[] precision = new double[patterns];
+        double[] recall = new double[patterns];
+        Integer[][] predicted_T = new Integer[test_N][nOut];
+
+
+        for (int i = 0; i < test_N; i++) {
+            predicted_T[i] = mlp.predict(trainDataForMlp[i]);
+        }
+
+        for (int i = 0; i < test_N; i++) {
+            int predicted_ = Arrays.asList(predicted_T[i]).indexOf(1);
+            int actual_ = Arrays.asList(targetForMlp[i]).indexOf(1);
+
+            if (predicted_ >= 0 && actual_>=0)
+            confusionMatrix[actual_][predicted_] += 1;
+        }
+
+        for (int i = 0; i < patterns; i++) {
+            double col_ = 0.;
+            double row_ = 0.;
+
+            for (int j = 0; j < patterns; j++) {
+
+                if (i == j) {
+                    accuracy += confusionMatrix[i][j];
+                    precision[i] += confusionMatrix[j][i];
+                    recall[i] += confusionMatrix[i][j];
+                }
+
+                col_ += confusionMatrix[j][i];
+                row_ += confusionMatrix[i][j];
+            }
+            precision[i] /= col_;
+            recall[i] /= row_;
+        }
+
+        accuracy /= test_N;
+
+        System.out.println("--------------------");
+        System.out.println("MLP model evaluation");
+        System.out.println("--------------------");
+        System.out.printf("Accuracy: %.1f %%\n", accuracy * 100);
+        System.out.println("Precision:");
+        for (int i = 0; i < patterns; i++) {
+            System.out.printf(" class %d: %.1f %%\n", i+1, precision[i] * 100);
+        }
+        System.out.println("Recall:");
+        for (int i = 0; i < patterns; i++) {
+            System.out.printf(" class %d: %.1f %%\n", i+1, recall[i] * 100);
+        }
+
     }
 
     public static void main(String... args) throws Exception {

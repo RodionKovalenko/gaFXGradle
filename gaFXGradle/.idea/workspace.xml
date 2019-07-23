@@ -8,15 +8,269 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbgabeKovalenko.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AbgabeKovalenko.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbgabeKovalenko/PrasentationKovalenko.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/AbgabeKovalenko/PrasentationKovalenko.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbgabeKovalenko/PrasentationKovalenko.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/AbgabeKovalenko/PrasentationKovalenko.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbgabeKovalenko/ThesenpapierKovalenko.docx" beforeDir="false" afterPath="$PROJECT_DIR$/AbgabeKovalenko/ThesenpapierKovalenko.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbgabeKovalenko/ThesenpapierKovalenko.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/AbgabeKovalenko/ThesenpapierKovalenko.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuralNetworkSerialized_GA.ser" beforeDir="false" afterPath="$PROJECT_DIR$/NeuralNetworkSerialized_GA.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuralNetworkSerialized_Mlp.ser" beforeDir="false" afterPath="$PROJECT_DIR$/NeuralNetworkSerialized_Mlp.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/gaJava/GeneticAlgorithms/Chromosome.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/gaJava/GeneticAlgorithms/Chromosome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/gaJava/util/ArrayTypeConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/openjfx/gaJava/util/ArrayTypeConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/NeuralNetworkSerialized_GA.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/NeuralNetworkSerialized_Mlp.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/hellofx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/hellofx.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/jrunscript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/bin/keytool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/limited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/limited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/limited/exempt_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/unlimited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/security/policy/unlimited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/conf/sound.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/aes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/asm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/c-libutl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/cldr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/icu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/public_suffix.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.base/unicode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.datatransfer/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.datatransfer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/colorimaging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/freetype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/giflib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/harfbuzz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/jpeg.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/lcms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/libpng.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/mesa3d.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/opengl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.desktop/xwd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.prefs/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.prefs/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.prefs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.scripting/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.scripting/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.scripting/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/bcel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/dom.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/jcup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/xalan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/java.xml/xerces.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/jdk.unsupported/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/legal/jdk.unsupported/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/fontconfig.bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/fontconfig.properties.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/jrt-fs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/jspawnhelper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libawt.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libawt_lwawt.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libfontmanager.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libfreetype.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjava.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjavajpeg.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjawt.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjimage.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjli.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjsig.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libjsound.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/liblcms.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libmlib_image.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libnet.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libnio.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libosx.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libosxapp.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libosxsecurity.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libosxui.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libprefs.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libsplashscreen.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libverify.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/libzip.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/psfont.properties.ja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/psfontj2d.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/security/default.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/security/public_suffix_list.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/server/libjsig.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/server/libjvm.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-mac/release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/NeuralNetworkSerialized_GA.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/NeuralNetworkSerialized_Mlp.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/awt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/fontmanager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/freetype.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/hellofx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/hellofx.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/java.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/java.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/javajpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/javaw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jawt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jimage.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jli.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jrunscript.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/jsound.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/keytool.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/lcms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/mlib_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/nio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/prefs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/server/jvm.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/splashscreen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/verify.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/bin/zip.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/limited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/limited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/limited/exempt_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/unlimited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/security/policy/unlimited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/conf/sound.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/aes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/asm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/c-libutl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/cldr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/icu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/public_suffix.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/unicode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.base/zlib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.datatransfer/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.datatransfer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/colorimaging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/freetype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/giflib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/harfbuzz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/jpeg.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/lcms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/libpng.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/mesa3d.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.desktop/opengl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.prefs/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.prefs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.scripting/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.scripting/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/bcel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/dom.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/jcup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/xalan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/java.xml/xerces.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/jdk.unsupported/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/legal/jdk.unsupported/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/fontconfig.bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/fontconfig.properties.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/jawt.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/jrt-fs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/jvm.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/psfont.properties.ja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/psfontj2d.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/security/default.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/security/public_suffix_list.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/lib/tzmappings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/hellofx-win/release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/hellofx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/hellofx.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/hellofx.merged.module.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/hellofx.merged.module.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/hellofx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/hellofx.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/org/openjfx/sceneRecognition.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/org/openjfx/sceneRecognition.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/openjfx/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/openjfx/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/openjfx/gaJava/util/ArrayTypeConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/openjfx/gaJava/util/ArrayTypeConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/org/openjfx/sceneRecognition.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/org/openjfx/sceneRecognition.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/ArrayTypeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/ArrayTypeConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/sceneRecognition.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/sceneRecognition.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +278,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="175" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -45,6 +302,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hellofx" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hellofx" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -75,8 +337,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="161" column="79" selection-start-line="161" selection-start-column="79" selection-end-line="161" selection-end-column="79" />
+            <state relative-caret-position="345">
+              <caret line="347" column="52" selection-start-line="347" selection-start-column="52" selection-end-line="347" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,88 +347,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Gene.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Population.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Chromosome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="e#1628#1629#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1698#1699#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1847#1848#0" expanded="true" />
-                <element signature="e#1877#1878#0" expanded="true" />
-                <element signature="e#1925#1926#0" expanded="true" />
-                <element signature="e#1963#1964#0" expanded="true" />
-                <element signature="e#2001#2002#0" expanded="true" />
-                <element signature="e#2031#2032#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2114#2115#0" expanded="true" />
-                <element signature="e#2150#2151#0" expanded="true" />
-                <element signature="e#2180#2181#0" expanded="true" />
-                <element signature="e#2228#2229#0" expanded="true" />
-                <element signature="e#2266#2267#0" expanded="true" />
-                <element signature="e#2296#2297#0" expanded="true" />
-                <element signature="e#2322#2323#0" expanded="true" />
-                <element signature="e#2360#2361#0" expanded="true" />
-                <element signature="e#2390#2391#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/GaussianDistribution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/RandomGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1037">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/HiddenLayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="44" />
+            <state relative-caret-position="1853">
+              <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,12 +368,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/HiddenLayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Chromosome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/ArrayTypeConversion.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/org/openjfx/sceneRecognition.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/openjfx/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="180" />
+    <option name="y" value="75" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -200,7 +390,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,30 +447,26 @@
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="openjfx" type="462c0819:PsiDirectoryNode" />
-              <item name="gaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="MultiLayerNeuralNetworks" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaFXGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="openjfx" type="462c0819:PsiDirectoryNode" />
-              <item name="gaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../gaJava" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ebooks/Java/design patterns/9781786463593_Code" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -298,7 +483,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GANeuralNetwork">
+  <component name="RunManager" selected="Gradle.gaFXGradle [jlink]">
     <configuration name="GANeuralNetwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.openjfx.gaJava.GeneticAlgorithms.GANeuralNetwork" />
       <module name="hellofx.main" />
@@ -311,6 +496,63 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="gaFXGradle [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gaFXGradle [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gaFXGradle [jlink]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jlink" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="gaFXGradle [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -335,6 +577,9 @@
       <list>
         <item itemvalue="Application.GANeuralNetwork" />
         <item itemvalue="Gradle.gaFXGradle [run]" />
+        <item itemvalue="Gradle.gaFXGradle [jlink]" />
+        <item itemvalue="Gradle.gaFXGradle [build]" />
+        <item itemvalue="Gradle.gaFXGradle [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -351,10 +596,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21376519" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,32 +618,155 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5026643" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39964476" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26998225" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32955465" />
+      <window_info active="true" anchor="right" id="Gradle" order="5" visible="true" weight="0.23187633" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32955465" />
     </layout>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hellofx$GANeuralNetwork.ic" NAME="GANeuralNetwork Coverage Results" MODIFIED="1563198434437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.openjfx.gaJava.GeneticAlgorithms.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>targetForMlp[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>targetForMlp</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Arrays.asList(targetForMlp[0]).indexOf(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Arrays.asList(predicted_T[0]).indexOf(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>predicted_T[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>predicted_T</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grad_W</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>minibatchSize</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>T[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>predicted_Y_</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Population.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/GaussianDistribution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/RandomGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/SingleLayerNeuralNetworks/LogisticRegression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/ArrayTypeConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="347" column="27" selection-start-line="347" selection-start-column="27" selection-end-line="347" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/HiddenLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/org/openjfx/sceneRecognition.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -399,72 +777,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/RandomGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Population.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/util/GaussianDistribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/HiddenLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/MultiLayerNeuralNetworks/MultiLayerPerceptrons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1037">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="-237">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/Chromosome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="-486">
           <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
             <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1877#1878#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1963#1964#0" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2031#2032#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
             <element signature="e#2114#2115#0" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-            <element signature="e#2228#2229#0" expanded="true" />
-            <element signature="e#2266#2267#0" expanded="true" />
-            <element signature="e#2296#2297#0" expanded="true" />
-            <element signature="e#2322#2323#0" expanded="true" />
-            <element signature="e#2360#2361#0" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/gaJava/GeneticAlgorithms/GANeuralNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="161" column="79" selection-start-line="161" selection-start-column="79" selection-end-line="161" selection-end-column="79" />
+        <state relative-caret-position="345">
+          <caret line="347" column="52" selection-start-line="347" selection-start-column="52" selection-end-line="347" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
