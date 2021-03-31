@@ -1,4 +1,4 @@
-module hellofx {
+module digitRecognizer {
  	requires javafx.controls;
 	requires javafx.fxml;
 	requires javafx.graphics;

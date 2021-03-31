@@ -1,14 +1,14 @@
 plugins {
     id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.7'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
     id 'org.beryx.jlink' version '2.10.2'
 }
 
 
 mainClassName = "org.openjfx.Main"
 
-sourceCompatibility = 12
-targetCompatibility = 12
+sourceCompatibility = 14
+targetCompatibility = 14
 
 repositories {
     mavenCentral()
@@ -16,13 +16,12 @@ repositories {
 }
 
 dependencies {
-    implementation "org.openjfx:javafx-plugin:0.0.7"
+    implementation "org.openjfx:javafx-plugin:0.0.9"
 }
 
-apply plugin: "org.openjfx.javafxplugin"
 
 javafx {
-    version = "12"
+    version = "15.0.1"
     modules = ['javafx.controls', 'javafx.fxml', 'javafx.swing', 'javafx.graphics']
 }
 
@@ -40,38 +39,38 @@ jar {
 jlink {
     options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
     launcher {
-        name = 'hellofx'
+        name = 'digitRecognizer'
     }
-    targetPlatform("mac") {
-        jdkHome = "C:\\Users\\rkovalenko\\Downloads\\jdk-12.0.1+12\\Contents\\Home"
-    }
-    targetPlatform("win") {
-        jdkHome = "C:\\Program Files\\Java\\jdk-12.0.1"
-    }
-    forceMerge('log4j-api')
+//    targetPlatform("mac") {
+//        jdkHome = "C:\\Users\\rkovalenko\\Downloads\\jdk-12.0.1+12\\Contents\\Home"
+//    }
+//    targetPlatform("win") {
+//        jdkHome = "C:\\Program Files\\Java\\jdk-12.0.1"
+//    }
+//    forceMerge('log4j-api')
 }
-
-task('copyWin', type: Copy) {
-    dependsOn 'copyMac'
-
-    from file("NeuralNetworkSerialized_GA.ser")
-    into file("$buildDir/image/hellofx-win/bin")
-
-    from file("NeuralNetworkSerialized_Mlp.ser")
-    into file("$buildDir/image/hellofx-win/bin")
-    println('windows copy done')
-
-}
-
-task('copyMac', type: Copy) {
-    println('mac copy done')
-    from file("NeuralNetworkSerialized_GA.ser")
-    into file("$buildDir/image/hellofx-mac/bin")
-
-    from file("NeuralNetworkSerialized_Mlp.ser")
-    into file("$buildDir/image/hellofx-mac/bin")
-}
-
-task copyFiles {
-    dependsOn 'copyWin'
-}
+//
+//task('copyWin', type: Copy) {
+//    dependsOn 'copyMac'
+//
+//    from file("NeuralNetworkSerialized_GA.ser")
+//    into file("$buildDir/image/hellofx-win/bin")
+//
+//    from file("NeuralNetworkSerialized_Mlp.ser")
+//    into file("$buildDir/image/hellofx-win/bin")
+//    println('windows copy done')
+//
+//}
+//
+//task('copyMac', type: Copy) {
+//    println('mac copy done')
+//    from file("NeuralNetworkSerialized_GA.ser")
+//    into file("$buildDir/image/hellofx-mac/bin")
+//
+//    from file("NeuralNetworkSerialized_Mlp.ser")
+//    into file("$buildDir/image/hellofx-mac/bin")
+//}
+//
+//task copyFiles {
+//    dependsOn 'copyWin'
+//}
